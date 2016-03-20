@@ -14,6 +14,7 @@
 		BC2610DB1C9B2697007C4BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2610D91C9B2697007C4BFB /* LaunchScreen.storyboard */; };
 		BC2610E61C9B2697007C4BFB /* StromyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2610E51C9B2697007C4BFB /* StromyTests.swift */; };
 		BC2610F11C9DCF1D007C4BFB /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2610F01C9DCF1D007C4BFB /* Current.swift */; };
+		BC7C5CBD1C9E9BA40095EE8B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7C5CBC1C9E9BA40095EE8B /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		BC2610E51C9B2697007C4BFB /* StromyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StromyTests.swift; sourceTree = "<group>"; };
 		BC2610E71C9B2697007C4BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC2610F01C9DCF1D007C4BFB /* Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
+		BC7C5CBC1C9E9BA40095EE8B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7C5CBD1C9E9BA40095EE8B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		BC2610C41C9B2697007C4BFB = {
 			isa = PBXGroup;
 			children = (
+				BC7C5CBC1C9E9BA40095EE8B /* CoreLocation.framework */,
 				BC2610CF1C9B2697007C4BFB /* Stromy */,
 				BC2610E41C9B2697007C4BFB /* StromyTests */,
 				BC2610CE1C9B2697007C4BFB /* Products */,
@@ -390,6 +394,7 @@
 				BC2610EC1C9B2697007C4BFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC2610ED1C9B2697007C4BFB /* Build configuration list for PBXNativeTarget "StromyTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +403,7 @@
 				BC2610EF1C9B2697007C4BFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

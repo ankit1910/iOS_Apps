@@ -20,7 +20,6 @@ struct Current {
     
     init(weatherDictionary: NSDictionary) {
         let currentWeather = weatherDictionary["currently"] as! NSDictionary
-        print(weatherDictionary)
         
         self.temperature = currentWeather["temperature"] as! Int
         self.humidity = currentWeather["humidity"] as! Double
